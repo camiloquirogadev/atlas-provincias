@@ -95,3 +95,11 @@ Sistema de referencia del mapa principal: WGS 84 (EPSG:4326).
 ## Autor
 
 **Camilo Quiroga** — [github.com/camiloquirogadev](https://github.com/camiloquirogadev)
+
+---
+
+## Licencia
+
+La obra propia de este repositorio —el proyecto de QGIS, el diseño cartográfico, el PDF exportado y la documentación— se distribuye bajo **[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](LICENSE)**.
+
+Los datos de origen conservan las condiciones de uso del **Instituto Geográfico Nacional**, que debe mantenerse acreditado como fuente al reutilizar el material.

@@ -1,0 +1,39 @@
+Atlas de Provincias Argentinas — Áreas Naturales Protegidas
+Copyright (c) 2026 Camilo Quiroga
+
+Esta obra está licenciada bajo la licencia
+Creative Commons Atribución 4.0 Internacional (CC BY 4.0).
+
+Identificador SPDX: CC-BY-4.0
+Texto legal completo: https://creativecommons.org/licenses/by/4.0/legalcode
+Resumen en español:   https://creativecommons.org/licenses/by/4.0/deed.es
+
+Se permite compartir y adaptar este material, incluso con fines
+comerciales, siempre que se dé el crédito correspondiente, se enlace a la
+licencia y se indique si se realizaron cambios.
+
+Atribución sugerida:
+
+    «Atlas de Provincias Argentinas — Áreas Naturales Protegidas»,
+    Camilo Quiroga, 2026. CC BY 4.0.
+    https://github.com/camiloquirogadev/atlas-provincias
+
+
+ALCANCE
+
+Esta licencia cubre la obra propia contenida en este repositorio: el
+proyecto de QGIS (atlas_provincias.qgz), el diseño cartográfico y las
+expresiones del Atlas, el PDF exportado, las imágenes de vista previa y
+la documentación.
+
+No cubre los datos de origen, que conservan las condiciones de uso de sus
+proveedores:
+
+  - Límites provinciales, áreas naturales protegidas y red vial nacional
+    y provincial: Instituto Geográfico Nacional (IGN), República
+    Argentina — https://www.ign.gob.ar/
+  - Mapa base del mapa de ubicación: Argenmap (IGN).
+  - Capa de países limítrofes: mapa base provisto por QGIS.
+
+Quien reutilice este material debe mantener la atribución al IGN como
+fuente de los datos.
