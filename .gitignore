@@ -1,0 +1,20 @@
+# Datos pesados: se distribuyen en Releases
+*.gpkg
+*.gpkg-wal
+*.gpkg-shm
+
+# Archivos temporales y de respaldo de QGIS
+*.qgz~
+*.qgs~
+*.qgd
+.qgis/
+*_attachments.zip
+
+# Exportaciones de prueba
+output/*.png
+output/atlas_provincias.pdf
+
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
