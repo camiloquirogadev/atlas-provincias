@@ -11,6 +11,11 @@ Tecnicatura Universitaria en Sistemas de Información Geográfica y Teledetecci�
 
 ⬇️ **[Descargar el atlas en alta calidad — PDF vectorial (Releases)](../../releases/latest)**
 
+> [!IMPORTANT]
+> **Para abrir el proyecto hace falta descargar los datos.** El archivo `atlas_provincias.qgz` no contiene las capas: las busca en `datos/atlas_provincias.gpkg`, que por su tamaño (114 MB) se distribuye en [Releases](../../releases/latest). Sin ese archivo el proyecto abre con todas las capas rotas.
+>
+> Ver [cómo abrir el proyecto](#cómo-abrir-el-proyecto).
+
 ---
 
 ## Vista previa
@@ -60,7 +65,8 @@ atlas-provincias/
 ├── output/
 │   └── atlas_provincias_web.pdf  Atlas exportado (24 hojas, versión web)
 ├── datos/
-│   └── README.md               Cómo obtener y ubicar el GeoPackage
+│   ├── README.md               Cómo obtener y ubicar el GeoPackage
+│   └── atlas_provincias.gpkg   (no incluido — descargar desde Releases)
 └── img/                        Vistas previas
 ```
 
@@ -73,7 +79,7 @@ Por su tamaño, en la sección **[Releases](../../releases)** se distribuyen:
 ## Cómo abrir el proyecto
 
 1. Clonar o descargar el repositorio.
-2. Descargar `atlas_provincias.gpkg` desde [Releases](../../releases) y colocarlo en la carpeta `datos/`.
+2. **Descargar `atlas_provincias.gpkg` desde [Releases](../../releases/latest) y colocarlo en la carpeta `datos/`, sin cambiarle el nombre.** Este paso no es opcional: es el archivo que contiene todas las capas.
 3. Abrir `atlas_provincias.qgz` con **QGIS 3.44** o superior.
 4. Ir a *Proyecto → Administrador de composiciones → Atlas Provincias*.
 5. Activar *Vista previa del atlas* y recorrer las hojas.
